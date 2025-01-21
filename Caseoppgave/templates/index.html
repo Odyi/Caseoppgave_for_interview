@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tilbakemeldingsskjema</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tilbakemeldingsskjema</h1>
+        <form id="feedback-form">
+            <label for="name">Navn:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-postadresse:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Tilbakemelding:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Lagre</button>
+        </form>
+
+        <h2>Tidligere tilbakemeldinger</h2>
+        <ul id="feedback-list"></ul>
+    </div>
+    <script src="/static/scripts.js"></script>
+</body>
+
+<footer>
+    <p>&copy; 2025 Ody. All rights reserved.</p>
+</footer>
+
+</html>

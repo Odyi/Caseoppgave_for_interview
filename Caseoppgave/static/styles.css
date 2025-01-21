@@ -1,0 +1,78 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #3b3b3bd3;
+    background-image: url('/static/Protector.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 600px;
+    margin: 130px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #444;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea, button {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff8000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c55c00;
+}
+
+#feedback-list {
+    list-style: none;
+    padding: 0;
+}
+
+#feedback-list li {
+    background: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #3b3b3bd3;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
